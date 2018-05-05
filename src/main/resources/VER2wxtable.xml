@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="wxtables">
+    <jdbcConnection connectionURL="jdbc:mysql://118.24.134.203/mp_dazhououyi" driverClass="com.mysql.jdbc.Driver" password="root123" userId="root" />
+    <javaModelGenerator targetPackage="api.entity" targetProject="mp-dazhououyi" />
+    <sqlMapGenerator targetPackage="api.mapping" targetProject="mp-dazhououyi" />
+    <javaClientGenerator targetPackage="api.dao" targetProject="mp-dazhououyi" type="XMLMAPPER" />
+    <table schema="banner" tableName="banner">
+      </table>
+      <table schema="banner_item" tableName="banner_item">
+      </table>
+      <table schema="category" tableName="category">
+      </table>
+      <table schema="image" tableName="image">
+      </table>
+          <table schema="order" tableName="order">
+      </table>
+          <table schema="order_product" tableName="order_product">
+      </table>
+          <table schema="product" tableName="product">
+      </table>
+          <table schema="product_image" tableName="product_image">
+      </table>
+          <table schema="product_property" tableName="product_property">
+      </table>
+     	  <table schema="user" tableName="user">
+      </table>
+       	  <table schema="user_address" tableName="user_address">
+      </table>
+  </context>
+</generatorConfiguration>
